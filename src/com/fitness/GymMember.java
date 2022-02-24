@@ -5,6 +5,8 @@ public class GymMember {
   private String fullName;
   private int dateOfBirth;
 
+  public GymMember() {
+  }
 
   public GymMember(String title, String fullName, int dateOfBirth) {
     this.title = title;

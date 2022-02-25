@@ -1,9 +1,9 @@
 package com.fitness;
 
-public class NewMember extends GymMember{
+public class Member extends GymMember{
   private int memberShipNumber;
 
-  public NewMember(String title, String fullName, int dateOfBirth, int memberShipNumber) {
+  public Member(String title, String fullName, int dateOfBirth, int memberShipNumber) {
     super(title, fullName, dateOfBirth);
     this.memberShipNumber = memberShipNumber;
   }

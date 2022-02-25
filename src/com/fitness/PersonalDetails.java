@@ -10,6 +10,8 @@ public class PersonalDetails {
   private String workPhone;
   private String email;
 
+  public PersonalDetails() {
+  }
 
   public PersonalDetails(String title, String fullName, int dateOfBirth, String postCode, String phone,
       String workPhone, String email) {
@@ -21,7 +23,6 @@ public class PersonalDetails {
     this.workPhone = workPhone;
     this.email = email;
   }
-
 
   public String getTitle() {
     return title;

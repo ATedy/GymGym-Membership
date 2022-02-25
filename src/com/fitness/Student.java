@@ -2,13 +2,15 @@ package com.fitness;
 
 import java.util.Date;
 
-public class Student extends GymMember{
+public class Student{
   private int studentHoursConfirmation;
   private Date letterReceived;
 
-  public Student(String title, String fullName, int dateOfBirth, int studentHoursConfirmation,
-      Date letterReceived) {
-    super(title, fullName, dateOfBirth);
+  public Student() {
+  }
+
+  public Student( int studentHoursConfirmation, Date letterReceived) {
+
     this.studentHoursConfirmation = studentHoursConfirmation;
     this.letterReceived = letterReceived;
   }

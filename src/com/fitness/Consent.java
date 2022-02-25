@@ -6,19 +6,21 @@ public class Consent {
   private String signature;
   private Date date;
 
+  public Consent() {
+  }
+
+  public Consent(String signature, Date date) {
+    this.signature = signature;
+    this.date = date;
+  }
+
   public String getSignature() {
     return signature;
   }
 
-  public void setSignature(String signature) {
-    this.signature = signature;
-  }
 
   public Date getDate() {
     return date;
   }
 
-  public void setDate(Date date) {
-    this.date = date;
-  }
 }

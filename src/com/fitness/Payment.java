@@ -1,20 +1,17 @@
 package com.fitness;
 
-import java.math.BigDecimal;
 import java.util.Date;
 
 public class Payment {
 
-  private BigDecimal annualPayment;
-  private  BigDecimal firstMonthPayment;
+  private double annualPayment;
+  private double firstMonthPayment;
   private Date dateJoined;
-  private BigDecimal dDAmount;
+  private double dDAmount;
   private Date firstInstallmentDue;
 
-  public Payment() {
-  }
 
-  public Payment(BigDecimal annualPayment, BigDecimal firstMonthPayment, Date dateJoined, BigDecimal dDAmount,
+  public Payment(double annualPayment, double firstMonthPayment, Date dateJoined, double dDAmount,
       Date firstInstallmentDue) {
     this.annualPayment = annualPayment;
     this.firstMonthPayment = firstMonthPayment;
@@ -23,12 +20,11 @@ public class Payment {
     this.firstInstallmentDue = firstInstallmentDue;
   }
 
-
-  public BigDecimal getAnnualPayment() {
+  public double getAnnualPayment() {
     return annualPayment;
   }
 
-  public BigDecimal getFirstMonthPayment() {
+  public double getFirstMonthPayment() {
     return firstMonthPayment;
   }
 
@@ -36,7 +32,7 @@ public class Payment {
     return dateJoined;
   }
 
-  public BigDecimal getdDAmount() {
+  public double getdDAmount() {
     return dDAmount;
   }
 

@@ -1,22 +1,17 @@
 package com.fitness;
-
 import java.util.Date;
 
 public class Student{
-  private int studentHoursConfirmation;
+  private Boolean studentHoursConfirmation;
   private Date letterReceived;
 
-  public Student() {
-  }
-
-  public Student( int studentHoursConfirmation, Date letterReceived) {
+  public Student( Boolean studentHoursConfirmation, Date letterReceived) {
 
     this.studentHoursConfirmation = studentHoursConfirmation;
     this.letterReceived = letterReceived;
   }
 
-
-  public int getStudentHoursConfirmation() {
+  public Boolean getStudentHoursConfirmation() {
     return studentHoursConfirmation;
   }
 

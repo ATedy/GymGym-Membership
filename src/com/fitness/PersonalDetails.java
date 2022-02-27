@@ -1,19 +1,19 @@
 package com.fitness;
 
+import java.util.Date;
+
 public class PersonalDetails {
 
   private String title;
   private String fullName;
-  private int dateOfBirth;
+  private Date dateOfBirth;
   private String postCode;
   private String phone;
   private String workPhone;
   private String email;
 
-  public PersonalDetails() {
-  }
 
-  public PersonalDetails(String title, String fullName, int dateOfBirth, String postCode, String phone,
+  public PersonalDetails(String title, String fullName, Date dateOfBirth, String postCode, String phone,
       String workPhone, String email) {
     this.title = title;
     this.fullName = fullName;
@@ -32,7 +32,7 @@ public class PersonalDetails {
     return fullName;
   }
 
-  public int getDateOfBirth() {
+  public Date getDateOfBirth() {
     return dateOfBirth;
   }
 

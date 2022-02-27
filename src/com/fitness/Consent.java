@@ -1,26 +1,16 @@
 package com.fitness;
 
-import java.util.Date;
-
 public class Consent {
-  private String signature;
-  private Date date;
+  private Boolean consent;
 
-  public Consent() {
+  public Consent(Boolean consent) {
+    this.consent = consent;
+
   }
-
-  public Consent(String signature, Date date) {
-    this.signature = signature;
-    this.date = date;
-  }
-
-  public String getSignature() {
-    return signature;
+  public Boolean getIsAgreed() {
+    return consent;
   }
 
 
-  public Date getDate() {
-    return date;
-  }
 
 }

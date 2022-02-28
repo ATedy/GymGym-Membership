@@ -8,7 +8,6 @@ public class MemberShip {
 
   public int setMemberShipNumber(int memberShipNumber) {
     this.memberShipNumber = memberShipNumber;
-
     return 1;
   }
 

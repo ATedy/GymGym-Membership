@@ -12,7 +12,6 @@ public class PersonalDetails {
   private String workPhone;
   private String email;
 
-
   public PersonalDetails(String title, String fullName, Date dateOfBirth, String postCode, String phone,
       String workPhone, String email) {
     this.title = title;

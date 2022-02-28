@@ -7,16 +7,16 @@ public class Payment {
   private double annualPayment;
   private double firstMonthPayment;
   private Date dateJoined;
-  private double dDAmount;
+  private double feesAmount;
   private Date firstInstallmentDue;
 
 
-  public Payment(double annualPayment, double firstMonthPayment, Date dateJoined, double dDAmount,
+  public Payment(double annualPayment, double firstMonthPayment, Date dateJoined, double feesAmount,
       Date firstInstallmentDue) {
     this.annualPayment = annualPayment;
     this.firstMonthPayment = firstMonthPayment;
     this.dateJoined = dateJoined;
-    this.dDAmount = dDAmount;
+    this.feesAmount = feesAmount;
     this.firstInstallmentDue = firstInstallmentDue;
   }
 
@@ -33,7 +33,7 @@ public class Payment {
   }
 
   public double getdDAmount() {
-    return dDAmount;
+    return feesAmount;
   }
 
   public Date getFirstInstallmentDue() {

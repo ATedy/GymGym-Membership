@@ -32,10 +32,9 @@ public class GymMember extends MemberShip{
 
   public void createMember(){
     // for creating a student member
-    if(!getIsStudent()){
+    if(getIsStudent()){
       System.out.println("Student gym member created");
-      String name = personalDetails.getFullName();
-     
+
     }
     // for a regular member
     System.out.println("Gym Member created");
